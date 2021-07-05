@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  line-height: 2em;
+  color: grey;
+}
+
+.img1,
+.img2,
+.img3 {
+  background-size: cover;
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.ptext {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.img1 {
+  background-image: url("./img/img1.jpg");
+  min-height: 100%;
+}
+.img2 {
+  background-image: url("./img/img3.jpg");
+  min-height: 100%;
+}
+
+.img3 {
+  background-image: url("./img/img2.jpg");
+  min-height: 100%;
+}
